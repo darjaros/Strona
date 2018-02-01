@@ -1,0 +1,40 @@
+
+
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+/* unvisited link */
+header a:link {
+	color: white;
+	text-decoration: none;
+	text-align: left;
+}
+.navbar-nav > li > .dropdown-menu {     background-color: #222222;  }
+/* visited link */
+header a:visited {
+    color: white;
+	text-decoration: none;
+}
+
+/* mouse over link */
+header a:hover {
+    color: white;
+	text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+.totheright{ /*this will align the text to the right*/
+  float: right;
+  right: 0px;
+}
+
